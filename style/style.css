@@ -1,0 +1,115 @@
+.p1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    background-image: url(../assets/images/gunsNroses.jpg);
+}
+.title{
+   align-items: center;
+    color: aliceblue;
+    width: 800px;
+    height: 200px;
+}
+.text{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    height: 200px;
+    background-color: rgb(99, 118, 224);
+}
+.tres{
+ display: flex;
+ justify-content: space-evenly;
+ padding: 20px;
+}
+.boton2{
+    align-items: center;
+    background-color: rgb(86, 86, 231);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+     border-radius: 35px 35px; 
+}
+.l{
+    display: flex;
+    width: 400px;
+
+}
+.e{
+    display: flex;
+    width: 400px;
+}
+.f{
+    display: flex;
+    width: 400px;
+}
+.d{
+    display: flex;
+    width: 400px;
+}
+.jim{
+    padding: 20px;
+}
+.pink{
+    padding: 20px;
+}
+.rolin{
+    padding: 20px;
+}
+.pi{
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    color: brown;
+}
+@media (max-width: 480px){
+   
+  body{
+    background-color: rgb(214, 235, 139);
+  }
+ 
+   .title{
+    display: flex;
+    width: 200px;
+    
+   }
+   .text{
+    display: flex;
+    width: 100%;
+    height: 600px;
+   }
+   .tres{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+        width: 100%;
+   }
+   
+   .l{
+    display: flex;
+    width: 300px;
+
+}
+.e{
+    display: flex;
+    width: 300px;
+}
+.f{
+    display: flex;
+    width: 300px;
+}
+.d{
+    display: flex;
+    width: 300px;
+}
+.boton2{
+    width: 100%;
+    height: 30px; 
+}
+}
